@@ -1,6 +1,7 @@
 import React from 'react'
 import projects from '../../Utils/Projects'
-import Cardprojects from '../CardProjects/Cardprojects'
+import Cardprojects from '../CardProjects/CardProjects'
+
 
 
 const Projects = () => {
