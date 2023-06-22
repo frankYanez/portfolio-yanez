@@ -1,9 +1,9 @@
 
 import './CardProjects.styles.css'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 
-const Cardprojects = ({project, languages}) => {
+const Cardprojects = ({project}) => {
   
   return (
     <div className='shadow project-card'>

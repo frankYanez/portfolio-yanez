@@ -54,25 +54,37 @@ export const projects = [
     {
         name: "Suelto y Confio",
         description: 'Proyecto freelancer para un comercio local. Implementé distintas herramientas entre ellas twilio para el envio de mensajes al local con los distintos pedidos',
-        img: '/assets/img-project.png',
-        languages: "React - Firebase - Tailwind"
+        img: '/assets/suelto-img.png',
+        languages: "React - Firebase - Tailwind",
+        gitUrl: "https://github.com/frankYanez/suelto-y-confio-page"
     },
     {
         name: "Yanez Page DJ",
         description: 'Proyecto presentado para la Universidad Nacional del Centro de la provincia de buenos aires, en la materia de WEB 1.',
-        img: '/assets/img-project.png',
-        languages: 'Html - CSS - JS'
+        img: '/assets/yanez-img.png',
+        languages: 'Html - CSS - JS',
+        gitUrl: "https://github.com/frankYanez/Dj-Yanez"
     },
     {
         name: "Dates Restaurant",
         description: 'Trabajo en equipo con un compañero de estudio realizamos un login con registro de citas para un restaurante usando disntintas ramas en github para el desarrollo',
         img: '/assets/img-project.png',
-        languages: 'React - Tailwind - Firebase'
+        languages: 'React - Tailwind - Firebase',
+        gitUrl: ""
     },
     {
         name: "Law Firm",
-        description: 'El mejor Dj',
-        img: '/assets/img-project.png'
+        description: 'Dj Yanez',
+        img: '/assets/img-project.png',
+        languages: 'React - MUI - Styled Components',
+        gitUrl: "https://github.com/frankYanez/law-firm"
+    },
+    {
+        name: "Backend",
+        description: 'El proposito de este proyecto es la practica de simulacion de backend con Mongo y Express',
+        img: '/assets/img-project.png',
+        languages: 'Mongo - Express - Multer',
+        gitUrl: "https://github.com/frankYanez/law-firm"
     }
 ]
 
