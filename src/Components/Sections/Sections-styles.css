@@ -1,0 +1,177 @@
+
+/* About Me */
+.about-me{
+  background: rgb(0,0,0);
+background: linear-gradient(270deg, rgba(0,0,0,1) 31%, rgba(0,0,0,0) 72%);
+padding: 2rem;
+border-radius: 12px;
+}
+ .about-section{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .about-photo{
+  width: 30vw;
+ }
+
+ .about-me a{
+  text-decoration: none;
+  text-align: center;
+ }
+
+.hi{
+  font-size: 25px;
+  text-shadow: 2px 1px 2px yellow;
+}
+
+span{
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px yellow;
+  margin-bottom: 20px;
+}
+
+
+
+  .about-me__content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 40px;
+  }
+
+  .about-photo{
+    object-fit: cover;
+    /* width: 50%; */
+    top: -100px;
+    left: -30px;
+    filter: drop-shadow(3px 0px 4px rgb(203, 202, 202))
+  }
+
+
+  
+  /* Academy */
+
+  .academy{
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  /* Hard Skills */
+
+.carousel{
+  margin-left: 5%;
+}
+.pagination{
+  text-align: center;
+  /* margin: 10px; */
+}
+  .carousel-container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 5%;
+    
+  }
+  .carousel-logo{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    object-fit: contain;
+  }
+
+  /* Soft */
+  .soft-img{
+    object-fit: contain;
+  }
+
+  .soft-container{
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  /* Projects */
+/* .projects-contain{
+  justify-content: center;
+} */
+  .projects{
+    justify-content: center;
+    /* margin-top: 3rem; */
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+/* 
+  .project-img{
+    position: absolute;
+    top:0;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    transition: all 1s;
+  }
+
+  .project-img:hover{
+    opacity: 0.5;
+  }
+
+  .project-card{
+    position: relative;
+    max-width: 480px;
+    height: 400px;
+   
+  }
+.project-card__content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+}
+  .hero-projects{
+    object-fit: contain;
+  }
+
+.language-logo{
+  object-fit: cover;
+  width: 18px;
+} */
+
+/* Contact */
+
+.contact-image{
+  object-fit: contain;
+}
+
+.contain-form{
+  gap: 40px;
+}
+
+.contact-section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comillas{
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.phrase{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: darkgrey;
+}
+.img-phrase{
+  display: block;
+  margin: 0 auto;
+  width: 5rem;
+}

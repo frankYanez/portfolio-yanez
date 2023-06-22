@@ -1,0 +1,48 @@
+.contain-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 2rem;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    padding: 10px;
+    color:white;
+}
+
+
+
+.link-section{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    padding: 0 5px;
+}
+
+.link-section::after{
+    content: "";
+    position: absolute;
+    background-color: #fecb00;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    
+    margin-bottom: -3px;
+    transition: 0.3s;
+}
+
+.link-section:hover{
+    color: rgb(165, 165, 164);
+}
+
+.link-section:hover::after{
+    width: 100%;
+}
+
+.logo{
+    width: 10%;
+}

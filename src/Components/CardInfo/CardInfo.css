@@ -1,0 +1,13 @@
+.section-welcome{
+    display: flex;
+    max-width: 400px;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.section-welcome img{
+    max-width: 300px;
+    border-radius: 5px;
+}

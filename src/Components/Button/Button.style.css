@@ -1,0 +1,18 @@
+.btn-language{
+    max-width: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    background: linear-gradient(180deg, rgb(197, 255, 8) 0%, rgb(192, 245, 86) 66%, rgb(186, 240, 23) 100%);
+    color: black;
+    padding: 20px;
+    /* font-weight: bolder; */
+    border-radius: 30px;
+    text-shadow: 10px 10px 20px #ca0c0c;
+
+}
+
+.btn-language img{
+    width: 10px;
+}

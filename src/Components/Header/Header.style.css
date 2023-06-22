@@ -1,0 +1,56 @@
+.header-content{
+    max-height: 80vh;
+}
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-content__photo{
+    max-width: 50%;
+    filter: drop-shadow(3px 0px 4px rgb(91, 91, 91));
+    animation-name: fly ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+.header-info{
+    color: white;
+    
+}
+
+.header-info h1{
+    font-size: clamp(1.5em,5vw,4em) ;
+}
+
+.header-info h1 strong{
+   
+    padding: 0 20px;
+}
+
+.header-info h2{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    font-size: clamp(0.8em,3vw,3em);
+    background: linear-gradient(180deg, rgba(250,247,17,1) 55%, rgba(255,255,255,1) 100%);
+}
+
+@keyframes fly {
+    0% { transform: translateY(0); }
+  50% { transform: translateY(40px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 480px){
+    /* .header-info h1{
+        font-size: 50%;
+    } */
+
+    .header-info p{
+        font-size: 20px;
+    }
+}
