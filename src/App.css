@@ -182,14 +182,10 @@ span{
     }
   }
   
-  @media (width > 800px) {
-    .about-photo{
-      width: 20vw;
-    }
-  }
+ 
 
 
-  @media(width <= 800px ){
+  @media (max-width :800px ){
     .soft-skills{
       flex-direction: column;
       margin: 0 5%;
@@ -214,7 +210,7 @@ span{
     }
 
     .about-photo{
-      /* width: 60vw; */
+      width: 60vw;
     }
 
 
