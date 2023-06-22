@@ -13,7 +13,7 @@ const Cardprojects = ({project}) => {
       <p>{project.description}</p>
       
       <div className='d-flex project-btn-container'>
-        <button className='button'>Ver</button>
+        {/* <button className='button'>Ver</button> */}
         <button className='button'><AiFillGithub className='git-icon'/></button>
       </div>
       </div>
