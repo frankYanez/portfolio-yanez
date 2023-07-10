@@ -96,7 +96,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'Terminado',
-        link: '/public/desarrollador-web.png'
+        link: 'https://firebasestorage.googleapis.com/v0/b/base-arcolo.appspot.com/o/desarrollador-web.png?alt=media&token=3cc482d6-2205-4fd3-86f8-3cf379acf07e'
     },
     {
         title: 'JavaScript',
@@ -104,7 +104,7 @@ export const academy = [
         logo: '/assets/coderhouse-logo.png',
         año: '2022',
         estado: 'Finalizado',
-        link: '/public/Javascript-developer-junior.png'
+        link: 'https://firebasestorage.googleapis.com/v0/b/base-arcolo.appspot.com/o/Javascript-developer-junior.png?alt=media&token=ca20ae42-f427-4bc4-8244-6e66ca91ea16'
     },
     {
         title: 'React JS',
@@ -129,7 +129,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'En proceso',
-        link: '/public/certificado-alumno-regular-UNICEN_page-0001.jpg'
+        link: 'https://firebasestorage.googleapis.com/v0/b/base-arcolo.appspot.com/o/certificado-alumno-regular-UNICEN_page-0001.jpg?alt=media&token=2f39358d-8795-425c-9398-0f4e4e4f8cb1'
     },
     {
         title: 'QA Automation',
@@ -138,7 +138,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'En proceso',
-        link: '/public/certificado-globant.png'
+        link: 'https://firebasestorage.googleapis.com/v0/b/base-arcolo.appspot.com/o/certificado-globant.png?alt=media&token=d4725f95-c834-4c39-981a-c7432f3e2199'
     },
 ]
 
