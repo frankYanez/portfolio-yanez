@@ -96,7 +96,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'Terminado',
-        link: 'https://www.coderhouse.com/pages/certificados/62c071a174b72a001aa7f111'
+        link: '/public/desarrollador-web.png'
     },
     {
         title: 'JavaScript',
@@ -104,7 +104,7 @@ export const academy = [
         logo: '/assets/coderhouse-logo.png',
         año: '2022',
         estado: 'Finalizado',
-        link: 'https://www.coderhouse.com/pages/certificados/635c22c003dd8c000eab2d57'
+        link: '/public/Javascript-developer-junior.png'
     },
     {
         title: 'React JS',
@@ -120,7 +120,7 @@ export const academy = [
         logo: '/assets/logo-alura.png',
         año: '2022',
         estado: 'Terminado',
-        link: 'https://app.aluracursos.com/degree/certificate/02d26ce0-380c-4ec7-8612-23d47eb85aed'
+        link: '/public/Front-alura.jpg'
     },
     {
         title: 'Tec. Universitaria en Desarrollo de Aplic. Web',
@@ -129,7 +129,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'En proceso',
-        link: 'url5'
+        link: '/public/certificado-alumno-regular-UNICEN_page-0001.jpg'
     },
     {
         title: 'QA Automation',
@@ -138,7 +138,7 @@ export const academy = [
         description:'Descripcion',
         año: '2022',
         estado: 'En proceso',
-        link: 'url6'
+        link: '/public/certificado-globant.png'
     },
 ]
 
