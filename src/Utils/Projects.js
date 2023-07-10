@@ -120,7 +120,7 @@ export const academy = [
         logo: '/assets/logo-alura.png',
         año: '2022',
         estado: 'Terminado',
-        link: '/public/Front-alura.jpg'
+        link: 'https://firebasestorage.googleapis.com/v0/b/base-arcolo.appspot.com/o/Front-alura.jpg?alt=media&token=89c7ad6d-2286-4aa3-b459-c6b8be4b7d89'
     },
     {
         title: 'Tec. Universitaria en Desarrollo de Aplic. Web',
